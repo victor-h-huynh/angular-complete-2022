@@ -12,6 +12,7 @@ export class ServersComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    // Test comment
   }
 
 }
