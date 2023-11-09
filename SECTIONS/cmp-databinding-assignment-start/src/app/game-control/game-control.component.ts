@@ -18,9 +18,7 @@ export class GameControlComponent implements OnInit {
   startCount() {
     this.interval = setInterval(() => {
       this.currentTime.emit(this.currentNumber);
-      this.currentNumber++
-      console.log(this.currentTime)
-      console.log(this.currentNumber);
+      this.currentNumber++;
     }, 1000);
   }
 
